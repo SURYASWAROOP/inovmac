@@ -7,7 +7,7 @@ $link = mysqli_connect("localhost", "u633421644_tsuryaswaroop", "w6gt8.ht8wk", "
 if($link === false){
     die("ERROR: Could not connect. " . mysqli_connect_error());
 }
-echo("Hello Heroku");
+echo "Hello Heroku";
 // Attempt select query execution with order by clause
 $sql = "SELECT * FROM Saif_Seas ORDER BY id DESC";
 if($result = mysqli_query($link, $sql)){
